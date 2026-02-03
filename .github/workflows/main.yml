@@ -2,7 +2,7 @@ name: Update ArcGIS Gantt Data Workflow
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # Schedule: Runs every day at 02:00 UTC
+    - cron: ""   # Schedule: Runs every day at 02:00 UTC
   workflow_dispatch:      # Trigger: Allows manual execution from the Actions tab
 
 permissions:
